@@ -12,11 +12,11 @@
 #In case of input data being supplied to the question, it should be assumed to be a console input.
 #Consider use dict()
 
-number_2 = input ('enter number - ')
+number_2 = int(input('enter number - '))
 result_dict = {}
 
 i = 1
-while i <= int(number_2):
-    result_dict.update({i : i*i})
-    i+=1
+while i <= number_2:
+    result_dict.update({i : i * i})
+    i += 1
 print(result_dict)
