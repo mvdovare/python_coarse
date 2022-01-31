@@ -1,0 +1,18 @@
+# Question 12
+# Level 2
+#
+# Question:
+# Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
+# The numbers obtained should be printed in a comma-separated sequence on a single line.
+#
+# Hints:
+# In case of input data being supplied to the question, it should be assumed to be a console input.
+
+i = 1000
+result = []
+
+while i <=3000:
+    if i%2 == 0:
+        result.append(i)
+    i += 1
+print(result)
