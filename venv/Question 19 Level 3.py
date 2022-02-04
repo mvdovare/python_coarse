@@ -25,9 +25,10 @@ l = []
 i = 0
 
 resulted_list = []
+print("enter values - ")
 while i < 4:
     d = {}
-    raw_input = input("enter values - ").split(",")
+    raw_input = input().split(",")
     d['name'] = raw_input[0]
     d['age'] = int(raw_input[1])
     d['height'] = int(raw_input[2])
